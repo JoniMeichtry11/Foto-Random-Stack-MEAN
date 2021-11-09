@@ -1,0 +1,10 @@
+###
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "imageUrl": "https://res.cloudinary.com/jonidash11/image/upload/v1636476725/pirlo_dvirkh.jpg"
+}
