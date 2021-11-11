@@ -6,5 +6,5 @@ POST http://localhost:3000/
 Content-Type: application/json
 
 {
-    "imageUrl": "https://res.cloudinary.com/jonidash11/image/upload/v1636476725/pirlo_dvirkh.jpg"
+    "imageUrl": "https://res.cloudinary.com/jonidash11/image/upload/v1636655919/000127427M_f3o4sp.jpg"
 }
