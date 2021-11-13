@@ -8,7 +8,7 @@ import { Image } from '../Image';
 })
 export class ImagesService {
 
-  URL_API = 'http://localhost:3000'
+  URL_API = 'https://foto-random.herokuapp.com'
 
   constructor(private http: HttpClient) {}
 

@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/mean-images')
+mongoose.connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true
+})
     .then(db => console.log('DB is connected'))
     .catch((err) => console.log(err))
