@@ -1,7 +1,6 @@
-import { Observable, Subject } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import { Image } from '../Image';
 
 @Injectable({
   providedIn: 'root'
